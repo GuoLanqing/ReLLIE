@@ -2,7 +2,7 @@ from mini_batch_loader import *
 import MyFCN_de
 import sys
 import time
-import State
+import State_de
 import pixelwise_a3c_de
 import os
 import torch
@@ -43,7 +43,7 @@ def test(loader1,loader2, agent_el, agent_de, fout, model):
     sum_psnr   = 0
     sum_reward = 0
     test_data_size = MiniBatchLoader.count_paths(TESTING_DATA_PATH)
-    current_state = State.State_de((TEST_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
+    current_state = State_de.State((TEST_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
     for i in range(0, test_data_size, TEST_BATCH_SIZE):
         raw_x = loader1.load_testing_data(np.array(range(i, i+TEST_BATCH_SIZE)))
         label = loader2.load_testing_data(np.array(range(i, i+TEST_BATCH_SIZE)))
@@ -111,7 +111,7 @@ def main(fout):
     # model = net.cuda()
     model.load_state_dict(state_dict)
     model.eval()
-    current_state = State.State_de((TRAIN_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
+    current_state = State_de.State_de((TRAIN_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
 
     # load myfcn model
     model_el = MyFCN_el.MyFcn(N_ACTIONS)
