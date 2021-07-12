@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e8d0479-5451-4c50-a5c4-792dd973f6ba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pSxFFLpcCc19bY1Sq9bhhD9DJU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\RELE_DE" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_de">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_de" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_de.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_de" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_de.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="ReLLIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_de" />
+        <item itemvalue="Python.train_de" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e8d0479-5451-4c50-a5c4-792dd973f6ba" name="Default Changelist" comment="" />
+      <created>1615190186982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615190186982</updated>
+      <workItem from="1615190188295" duration="24070000" />
+      <workItem from="1615288757329" duration="26835000" />
+      <workItem from="1616568049087" duration="4458000" />
+      <workItem from="1626068103947" duration="4840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2372" y="158" key="#Deployment" timestamp="1626068274935">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2372" y="158" key="#Deployment/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626068274935" />
+    <state x="2334" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626068153151">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2334" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626068153151" />
+    <state x="2547" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626072524332">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2547" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072524332" />
+    <state x="2372" y="106" key="CommitChangelistDialog2" timestamp="1626072834685">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2372" y="106" key="CommitChangelistDialog2/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072834685" />
+    <state x="2707" y="450" key="Github.ShareDialog" timestamp="1626072755923">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2707" y="450" key="Github.ShareDialog/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072755923" />
+    <state x="2622" y="218" key="Github.UntrackedFilesDialog" timestamp="1626072761371">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2622" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072761371" />
+    <state width="1882" height="86" key="GridCell.Tab.0.bottom" timestamp="1626072515041">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="86" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072515041" />
+    <state width="1882" height="86" key="GridCell.Tab.0.center" timestamp="1626072515041">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="86" key="GridCell.Tab.0.center/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072515041" />
+    <state width="1882" height="86" key="GridCell.Tab.0.left" timestamp="1626072515041">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="86" key="GridCell.Tab.0.left/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072515041" />
+    <state width="1882" height="86" key="GridCell.Tab.0.right" timestamp="1626072515041">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="86" key="GridCell.Tab.0.right/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626072515041" />
+    <state width="1882" height="77" key="GridCell.Tab.1.bottom" timestamp="1626071556527">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="77" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626071556527" />
+    <state width="1882" height="77" key="GridCell.Tab.1.center" timestamp="1626071556526">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="77" key="GridCell.Tab.1.center/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626071556526" />
+    <state width="1882" height="77" key="GridCell.Tab.1.left" timestamp="1626071556526">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="77" key="GridCell.Tab.1.left/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626071556526" />
+    <state width="1882" height="77" key="GridCell.Tab.1.right" timestamp="1626071556527">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state width="1882" height="77" key="GridCell.Tab.1.right/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626071556527" />
+    <state x="2250" y="139" key="SettingsEditor" timestamp="1626071342183">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2250" y="139" key="SettingsEditor/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626071342183" />
+    <state x="2012" y="96" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1626071856853">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2012" y="96" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626071856853" />
+    <state x="2464" y="243" width="831" height="682" key="find.popup" timestamp="1626068843970">
+      <screen x="1920" y="4" width="1920" height="1160" />
+    </state>
+    <state x="2464" y="243" width="831" height="682" key="find.popup/0.0.1920.1040/1920.4.1920.1160@1920.4.1920.1160" timestamp="1626068843970" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../ReLLIE/pixelwise_a3c_de.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../ReLLIE/train_de.py</url>
+          <line>186</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RELE_DE$train_de.coverage" NAME="train_de Coverage Results" MODIFIED="1615355662738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RELE_DE$test_de.coverage" NAME="test_de Coverage Results" MODIFIED="1626072029729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
