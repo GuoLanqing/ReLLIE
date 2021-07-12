@@ -38,7 +38,6 @@ or on high-quality low-light images (enhancement without denoising)
 ```
 python test_el.py
 ```
-<<<<<<< HEAD
 
 ## References
 We used the publicly avaliable pretrained models of [FFDNet](https://github.com/cszn/FFDNet) as the denoiser module.
