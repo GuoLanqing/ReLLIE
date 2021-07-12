@@ -23,7 +23,7 @@ You can install the required libraries by the command `pip install -r requiremen
 ### Training
 If you want to train the model
 1. `git clone git@github.com:GuoLanqing/ReLLIE.git`
-2. download the training data [LOL dataset](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view)
+2. download the training data [LOL dataset](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view) or your own dataset
 3. unzip and put the downloaded "ours485" and "eval15" folders to root folder
 ```
 python train.py
@@ -38,3 +38,15 @@ or on high-quality low-light images (enhancement without denoising)
 ```
 python test_el.py
 ```
+
+## References
+We used the publicly avaliable pretrained models of [FFDNet](https://github.com/cszn/FFDNet) as the denoiser module.
+
+We obtained the LOL and LIME dataset from
+* [https://daooshee.github.io/BMVC2018website/](https://daooshee.github.io/BMVC2018website/)
+* [https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view?resourcekey=0-VZXvwdwr7QbH3FoX10yPXg](https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view?resourcekey=0-VZXvwdwr7QbH3FoX10yPXg)
+
+Our implementation is based on [PixelRL](https://github.com/rfuruta/pixelRL). We would like to thank them.
+
+## Contact
+If you have any questions, please contact rongkai002@e.ntu.edu.sg or lanqing001@e.ntu.edu.sg
