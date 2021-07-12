@@ -38,3 +38,16 @@ or on high-quality low-light images (enhancement without denoising)
 ```
 python test_el.py
 ```
+<<<<<<< HEAD
+
+## References
+We used the publicly avaliable pretrained models of [FFDNet](https://github.com/cszn/FFDNet) as the denoiser module.
+
+We obtained the LOL and LIME dataset from
+* [https://daooshee.github.io/BMVC2018website/](https://daooshee.github.io/BMVC2018website/)
+* [https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view?resourcekey=0-VZXvwdwr7QbH3FoX10yPXg](https://drive.google.com/file/d/0BwVzAzXoqrSXb3prWUV1YzBjZzg/view?resourcekey=0-VZXvwdwr7QbH3FoX10yPXg)
+
+Our implementation is based on [PixelRL](https://github.com/rfuruta/pixelRL). We would like to thank them.
+
+## Contact
+If you have any questions, please contact rongkai002@e.ntu.edu.sg or lanqing001@e.ntu.edu.sg
