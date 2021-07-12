@@ -15,7 +15,7 @@ network is proposed to estimate the curves for enlightening of a low-light image
 * Cupy 5.0+
 * OpenCV 3.4+
 
-You can install the required libraries by the command 'pip install -r requirements.txt'. We checked this code on cuda-10.0 and cudnn-7.3.1.
+You can install the required libraries by the command `pip install -r requirements.txt`. We checked this code on cuda-10.0 and cudnn-7.3.1.
 
 ## Folder sturcture
 
