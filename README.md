@@ -23,7 +23,7 @@ You can install the required libraries by the command `pip install -r requiremen
 ### Training
 If you want to train the model
 1. `git clone git@github.com:GuoLanqing/ReLLIE.git`
-2. download the training data [LOL dataset](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view)
+2. download the training data [LOL dataset](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view) or your own dataset
 3. unzip and put the downloaded "ours485" and "eval15" folders to root folder
 ```
 python train.py
