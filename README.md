@@ -29,7 +29,7 @@ If you want to train the model
 python train.py
 ```
 
-### Test with pretrained models
+### Testing with pretrained models
 If you want to test the pretrained model on noisy low-light images (enhancement with denoising)
 ```
 python test.py
