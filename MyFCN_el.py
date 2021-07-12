@@ -70,9 +70,9 @@ class MyFcn(chainer.Chain, a3c.A3CModel):
 
 
 if __name__ == '__main__':
-    train_path = './training_BSD68.txt'
-    test_path = './training_BSD68.txt'
-    image_dir_path = './'
+    train_path = 'data/training_LOL_eval15.txt'
+    test_path = 'data/training_LOL_eval15.txt'
+    image_dir_path = '/'
     crop_size = 70
     loader = MiniBatchLoader(train_path, test_path, image_dir_path, crop_size)
     train_data_size = MiniBatchLoader.count_paths(train_path)

@@ -1,6 +1,6 @@
 result_ex2/
-label_BSD68.txt
-training_BSD68.txt
+data/label_LOL_eval15.txt
+data/training_LOL_eval15.txt
 out.txt
 .idea/
 __pycache__

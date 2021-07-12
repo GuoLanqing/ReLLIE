@@ -14,6 +14,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 import functions
 
+
 class UpSampleFeatures(nn.Module):
 	r"""Implements the last layer of FFDNet
 	"""
@@ -21,6 +22,7 @@ class UpSampleFeatures(nn.Module):
 		super(UpSampleFeatures, self).__init__()
 	def forward(self, x):
 		return functions.upsamplefeatures(x)
+
 
 class IntermediateDnCNN(nn.Module):
 	r"""Implements the middel part of the FFDNet architecture, which
@@ -64,6 +66,7 @@ class IntermediateDnCNN(nn.Module):
 	def forward(self, x):
 		out = self.itermediate_dncnn(x)
 		return out
+
 
 class FFDNet(nn.Module):
 	r"""Implements the FFDNet architecture

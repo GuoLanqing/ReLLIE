@@ -1,25 +1,20 @@
 from mini_batch_loader import *
-from chainer import serializers
-import MyFCN
-import MyFCN_denoise
-from chainer import cuda, optimizers, Variable
+import MyFCN_de
 import sys
-import math
 import time
-import chainerrl
-import State_de
+import State
+import pixelwise_a3c_de
 import os
 import torch
-import Myloss
-import pixelwise_a3c
-import pixelwise_a3c_de
+import pixelwise_a3c_el
+import MyFCN_el
 from models import FFDNet
 import torch.nn as nn
 
 # _/_/_/ paths _/_/_/
-TRAINING_DATA_PATH = "./training_BSD68.txt"
-label_DATA_PATH = "./label_BSD68.txt"
-TESTING_DATA_PATH = "./training_BSD68.txt"
+TRAINING_DATA_PATH = "data/training_LOL_eval15.txt"
+label_DATA_PATH = "data/label_LOL_eval15.txt"
+TESTING_DATA_PATH = "data/training_LOL_eval15.txt"
 
 IMAGE_DIR_PATH = "./"
 SAVE_PATH = "./model/ex1_"
@@ -48,7 +43,7 @@ def test(loader1,loader2, agent_el, agent_de, fout, model):
     sum_psnr   = 0
     sum_reward = 0
     test_data_size = MiniBatchLoader.count_paths(TESTING_DATA_PATH)
-    current_state = State_de.State_de((TEST_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
+    current_state = State.State_de((TEST_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
     for i in range(0, test_data_size, TEST_BATCH_SIZE):
         raw_x = loader1.load_testing_data(np.array(range(i, i+TEST_BATCH_SIZE)))
         label = loader2.load_testing_data(np.array(range(i, i+TEST_BATCH_SIZE)))
@@ -96,11 +91,11 @@ def main(fout):
         IMAGE_DIR_PATH,
         CROP_SIZE)
 
-    pixelwise_a3c.chainer.cuda.get_device_from_id(GPU_ID).use()
+    pixelwise_a3c_el.chainer.cuda.get_device_from_id(GPU_ID).use()
 
     # load ffdnet
     in_ch = 3
-    model_fn = 'models/net_rgb.pth'
+    model_fn = 'FFDNet_models/net_rgb.pth'
     # Absolute path to model file
     model_fn = os.path.join(os.path.abspath(os.path.dirname(__file__)), \
                             model_fn)
@@ -116,22 +111,22 @@ def main(fout):
     # model = net.cuda()
     model.load_state_dict(state_dict)
     model.eval()
-    current_state = State_de.State_de((TRAIN_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
+    current_state = State.State_de((TRAIN_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
 
     # load myfcn model
-    model_el = MyFCN.MyFcn(N_ACTIONS)
+    model_el = MyFCN_el.MyFcn(N_ACTIONS)
 
     # _/_/_/ setup _/_/_/
-    optimizer_el = pixelwise_a3c.chainer.optimizers.Adam(alpha=LEARNING_RATE)
+    optimizer_el = pixelwise_a3c_el.chainer.optimizers.Adam(alpha=LEARNING_RATE)
     optimizer_el.setup(model_el)
 
-    agent_el = pixelwise_a3c.PixelWiseA3C(model_el, optimizer_el, EPISODE_LEN, GAMMA)
-    pixelwise_a3c.chainer.serializers.load_npz('./model/ex52_8000/model.npz', agent_el.model)
+    agent_el = pixelwise_a3c_el.PixelWiseA3C(model_el, optimizer_el, EPISODE_LEN, GAMMA)
+    pixelwise_a3c_el.chainer.serializers.load_npz('./pretrained/model.npz', agent_el.model)
     agent_el.act_deterministically = True
     agent_el.model.to_gpu()
 
     # load myfcn model for denoising
-    model_de = MyFCN_denoise.MyFcn_denoise(2)
+    model_de = MyFCN_de.MyFcn_denoise(2)
 
     # _/_/_/ setup _/_/_/
 
@@ -139,7 +134,7 @@ def main(fout):
     optimizer_de.setup(model_de)
 
     agent_de = pixelwise_a3c_de.PixelWiseA3C(model_de, optimizer_de, EPISODE_LEN, GAMMA)
-    pixelwise_a3c_de.chainer.serializers.load_npz('./model/ex4_500/model.npz', agent_de.model)
+    pixelwise_a3c_de.chainer.serializers.load_npz('./pretrained/init_denoising.npz', agent_de.model)
     agent_de.act_deterministically = True
     agent_de.model.to_gpu()
 
