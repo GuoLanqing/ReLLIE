@@ -48,5 +48,24 @@ We obtained the LOL and LIME dataset from
 
 Our implementation is based on [PixelRL](https://github.com/rfuruta/pixelRL). We would like to thank them.
 
+Citation
+-----
+Preprint available [here](https://arxiv.org/abs/2107.05830). 
+
+In case of use, please cite our publication:
+
+R. Zhang, L. Guo, S. Huang and B. Wen, "ReLLIE: Deep Reinforcement Learning for Customized Low-Light Image Enhancement," ACM MM 2021.
+
+Bibtex:
+```
+@article{zhang2021rellie,
+  title={ReLLIE: Deep Reinforcement Learning for Customized Low-Light Image Enhancement},
+  author={Zhang, Rongkai and Guo, Lanqing and Huang, Siyu and Wen, Bihan},
+  journal={arXiv preprint arXiv:2107.05830},
+  year={2021}
+}
+```
+
+
 ## Contact
 If you have any questions, please contact rongkai002@e.ntu.edu.sg or lanqing001@e.ntu.edu.sg
