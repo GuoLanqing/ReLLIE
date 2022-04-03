@@ -182,7 +182,7 @@ def main(fout):
             loss_exp_cur = 80 * torch.mean(L_exp(current_state_tensor))
             loss_col_rate_pre = 20*L_color_rate(previous_image_tensor, current_state_tensor)
             # reward_previous = loss_spa_pre + loss_col_pre + loss_exp_pre + Loss_TV_pre + loss_col_rate_pre
-            reward_current = loss_col_cur + loss_spa_cur + loss_exp_cur + Loss_TV_cur + loss_col_rate_pre
+            reward_current = loss_spa_cur + loss_exp_cur + Loss_TV_cur + loss_col_rate_pre
             reward = - reward_current
             reward_de = reward.cpu().numpy()
             sum_reward += np.mean(reward_de) * np.power(GAMMA, t)
