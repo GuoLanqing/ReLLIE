@@ -148,6 +148,7 @@ def main(fout):
     L_spa = Myloss.L_spa()
     L_TV = Myloss.L_TV()
     L_exp = Myloss.L_exp(16, 0.6)
+    L_color_rate = Myloss.L_
     for episode in range(1, N_EPISODES+1):
         # display current episode
         print("episode %d" % episode)
@@ -176,11 +177,12 @@ def main(fout):
             current_state_tensor = torch.from_numpy(current_state.image).cuda()
             action_tensor = torch.from_numpy(action_value).cuda()
             loss_spa_cur = torch.mean(L_spa(current_state_tensor, raw_tensor))
-            loss_col_cur = 50 * torch.mean(L_color(current_state_tensor))
+            # loss_col_cur = 50 * torch.mean(L_color(current_state_tensor))
             Loss_TV_cur = 200 * L_TV(action_tensor)
             loss_exp_cur = 80 * torch.mean(L_exp(current_state_tensor))
+            loss_col_rate_pre = 20*L_
             # reward_previous = loss_spa_pre + loss_col_pre + loss_exp_pre + Loss_TV_pre + loss_col_rate_pre
-            reward_current = loss_col_cur + loss_spa_cur + loss_exp_cur + Loss_TV_cur
+            reward_current = loss_col_cur + loss_spa_cur + loss_exp_cur + Loss_TV_cur + loss_col_rate_pre
             reward = - reward_current
             reward_de = reward.cpu().numpy()
             sum_reward += np.mean(reward_de) * np.power(GAMMA, t)
