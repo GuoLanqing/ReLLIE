@@ -144,11 +144,11 @@ def main(fout):
     train_data_size = MiniBatchLoader.count_paths(TRAINING_DATA_PATH)
     indices = np.random.permutation(train_data_size)
     i = 0
-    L_color = Myloss.L_color()
+    #L_color = Myloss.L_color()
     L_spa = Myloss.L_spa()
     L_TV = Myloss.L_TV()
     L_exp = Myloss.L_exp(16, 0.6)
-    L_color_rate = Myloss.L_
+    L_color_rate = Myloss.L_color_rate()
     for episode in range(1, N_EPISODES+1):
         # display current episode
         print("episode %d" % episode)
@@ -180,7 +180,7 @@ def main(fout):
             # loss_col_cur = 50 * torch.mean(L_color(current_state_tensor))
             Loss_TV_cur = 200 * L_TV(action_tensor)
             loss_exp_cur = 80 * torch.mean(L_exp(current_state_tensor))
-            loss_col_rate_pre = 20*L_
+            loss_col_rate_pre = 20*L_color_rate(previous_image_tensor, current_state_tensor)
             # reward_previous = loss_spa_pre + loss_col_pre + loss_exp_pre + Loss_TV_pre + loss_col_rate_pre
             reward_current = loss_col_cur + loss_spa_cur + loss_exp_cur + Loss_TV_cur + loss_col_rate_pre
             reward = - reward_current
