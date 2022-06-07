@@ -43,7 +43,7 @@ def test(loader1,loader2, agent_el, agent_de, fout, model):
     sum_psnr   = 0
     sum_reward = 0
     test_data_size = MiniBatchLoader.count_paths(TESTING_DATA_PATH)
-    current_state = State_de.State((TEST_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
+    current_state = State_de.State_de((TEST_BATCH_SIZE, 1, CROP_SIZE, CROP_SIZE), MOVE_RANGE, model)
     for i in range(0, test_data_size, TEST_BATCH_SIZE):
         raw_x = loader1.load_testing_data(np.array(range(i, i+TEST_BATCH_SIZE)))
         label = loader2.load_testing_data(np.array(range(i, i+TEST_BATCH_SIZE)))
